@@ -1,2 +1,8 @@
-# zombie-delete
-Exported from Caffeine project: Zombie Delete
+## Zombie Delete
+
+To run app build and run docker image:
+
+```
+docker build -t app .
+docker run -it --network host app
+```
